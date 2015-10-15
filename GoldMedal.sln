@@ -1,0 +1,12 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{218574D1-FF94-4B95-8577-A6D58C11C315}") = "GoldMedal", "GoldMedal\GoldMedal.oradbproj", "{218574D1-FF94-4B95-8577-A6D58C11C315}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

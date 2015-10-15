@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProductVersion>12.1.0.2</ProductVersion>
+    <ProjectGuid>218574D1-FF94-4b95-8577-A6D58C11C315</ProjectGuid>
+    <AssemblyName>GoldMedal</AssemblyName>
+    <Name>GoldMedal</Name>
+    <RootNamespace>GoldMedal</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <DBRefs Include="Database References\" />
+    <Folder Include="Functions\" />
+    <Folder Include="Packages\" />
+    <Folder Include="Procedures\" />
+    <Folder Include="Scripts\" />
+    <Folder Include="Security\" />
+    <Folder Include="Security\Permissions\" />
+    <Folder Include="Security\Roles\" />
+    <Folder Include="Security\Users\" />
+    <Folder Include="Sequences\" />
+    <Folder Include="Synonyms\" />
+    <Folder Include="Tables\" />
+    <Folder Include="Tables\Triggers\" />
+    <Folder Include="User Defined Types\" />
+    <Folder Include="User Defined Types\Nested Tables\" />
+    <Folder Include="User Defined Types\Objects\" />
+    <Folder Include="User Defined Types\VARRAYs\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Triggers\" />
+    <Folder Include="XML Schemas\" />
+    <Folder Include="AQ\" />
+    <Folder Include="AQ\Queues\" />
+    <Folder Include="AQ\Queue Tables\" />
+    <Folder Include="Pluggable Databases\" />
+    <DBRefs Include="Database References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <DBRef Include="Database References\SAINI_H.ban8devl\">
+      <ConnectionString>DATA SOURCE=ban8dev-cluster-scan.usp.ac.fj:1521/ban8devl.usp.ac.fj;PERSIST SECURITY INFO=True;USER ID=SAINI_H</ConnectionString>
+      <IsDefault>true</IsDefault>
+    </DBRef>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\AverageGpaPerProgramPerDiscipline_18OrMore.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\AverageGpaPerProgramPerDiscipline_Generic.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\AverageGpaPerProgramPerDiscipline_Graduated.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\AverageGpaPerProgram_18OrMore.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\AverageGpaPerProgram_Graduated.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\HighestGradeForRepeatedCourses.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\ListStudentCourseGrades.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\Prototype1.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>
